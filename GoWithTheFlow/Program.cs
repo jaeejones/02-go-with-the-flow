@@ -12,19 +12,23 @@ namespace GoWithTheFlow
         {
             Console.WriteLine("Are your Eyes Watching?");
             Console.WriteLine("Yes or No");
-            Console.ReadLine();
-
+   
             string answer = Console.ReadLine();
 
             if (answer == "yes") 
             {
                 // child typed typed "Yes"
-                Console.WriteLine("You are a good listener!");
+                Console.WriteLine("You are a very good listener!");
+                Console.ReadLine();
+   
+
             }
             else
             {
                 // child did not type "yes"
                 Console.WriteLine("Keep your eyes on me, please!");
+                Console.ReadLine();
+
             }
         }
     }
