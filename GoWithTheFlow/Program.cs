@@ -10,11 +10,11 @@ namespace GoWithTheFlow
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Are your eyes on Teacher?");
+            Console.WriteLine("Are your eyes on the teacher?");
             Console.WriteLine("Is your mouth closed?");
             Console.WriteLine("Are your ears listening?");
             Console.WriteLine("Are your hands and feet still? ");
-            Console.WriteLine("Yes or No");
+            Console.WriteLine("Type yes or no");  //Changed to type yes or no
    
             string answer = Console.ReadLine();
 
