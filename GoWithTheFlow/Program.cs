@@ -10,14 +10,17 @@ namespace GoWithTheFlow
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Are your Eyes Watching?");
+            Console.WriteLine("Are your Eyes on Teacher?");
+            Console.WriteLine("Is your mouth closed?");
+            Console.WriteLine("Are your ears listening?");
+            Console.WriteLine("Are your hands and feet still? ");
             Console.WriteLine("Yes or No");
    
             string answer = Console.ReadLine();
 
-            if (answer == "yes") 
+            if (answer.ToLower() == "yes") 
             {
-                // child typed typed "Yes"
+                // child typed typed "Yes" this code is executed.
                 Console.WriteLine("You are a very good listener!");
                 Console.ReadLine();
    
@@ -25,8 +28,8 @@ namespace GoWithTheFlow
             }
             else
             {
-                // child did not type "yes"
-                Console.WriteLine("Keep your eyes on me, please!");
+                // child did not type "yes" this code is executed. 
+                Console.WriteLine("Try again, you can do!");
                 Console.ReadLine();
 
             }
