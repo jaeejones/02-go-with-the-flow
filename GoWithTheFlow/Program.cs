@@ -30,7 +30,12 @@ namespace GoWithTheFlow
             {
                 // child did not type "yes" this code is executed. 
                 Console.WriteLine("Try again, you can do!");
-                Console.ReadLine();
+
+                /*Console.ReadLine();*/
+
+                // added Console.ReadKey and commented out Console.ReadLine
+
+                Console.ReadKey();
 
             }
         }
